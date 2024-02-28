@@ -1,6 +1,7 @@
 import {useState} from 'react'
 import { IoMdCloseCircleOutline } from "react-icons/io";
 import { IoMenu } from "react-icons/io5";
+import { FaAngleDown } from "react-icons/fa";
 import logo from '../assets/logo.png';
 
 const Navbar = () => {
@@ -29,7 +30,7 @@ const Navbar = () => {
                 <ul className="flex-1 flex justify-center items-center xl:gap-12 gap-x-4 max-lg:hidden">
                     <a href="#home" className="leading-normal no-underline text-white text-lg hover:text-primary flex items-center">Home</a>
 
-                    <a href="#france" className="leading-normal no-underline text-white text-lg hover:text-primary flex items-center">France</a>
+                    <a href="#france" className="leading-normal no-underline text-white text-lg hover:text-primary flex items-center">France<FaAngleDown className="text-2xl"/></a>
 
                     <a href="#travel" className="leading-normal no-underline text-white text-lg hover:text-primary">Travel</a>
 
