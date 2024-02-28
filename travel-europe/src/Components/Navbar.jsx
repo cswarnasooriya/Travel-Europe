@@ -26,14 +26,14 @@ const Navbar = () => {
                 </div>
             
 
-                <ul>
-                    <a href="#home">Home</a>
-                    <a href="#france">France</a>
-                    <a href="#travel">Travel</a>
-                    <a href="#facilities">Facilities</a>
-                    <a href="#tour">Tour</a>
-                    <a href="#blog">Blog</a>
-                    <a href="#gallery">Gallery</a>
+                <ul className="flex-1 flex justify-center items-center xl:gap-12 gap-x-4 max-lg:hidden">
+                    <a href="#home" className="leading-normal no-underline text-white text-lg hover:text-primary">Home</a>
+                    <a href="#france" className="leading-normal no-underline text-white text-lg hover:text-primary">France</a>
+                    <a href="#travel" className="leading-normal no-underline text-white text-lg hover:text-primary">Travel</a>
+                    <a href="#facilities" className="leading-normal no-underline text-white text-lg hover:text-primary">Facilities</a>
+                    <a href="#tour" className="leading-normal no-underline text-white text-lg hover:text-primary">Tour</a>
+                    <a href="#blog" className="leading-normal no-underline text-white text-lg hover:text-primary">Blog</a>
+                    <a href="#gallery" className="leading-normal no-underline text-white text-lg hover:text-primary">Gallery</a>
                 </ul>
 
                 <div>
