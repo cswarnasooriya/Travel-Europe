@@ -21,17 +21,6 @@
   overflow: hidden !important;
 }
 
-.flip_image{
-  transform: scale(1.2);
-}
-.button-hover{
-  transition: all 1.4s ease 0s !important;
-  cursor: pointer;
-  border: none;
-}
-
-.button-hover:hover{
-  background-color: transparent;
-  border: 1.5px solid black;
-  color: black;
+.text-primary{
+  color: red;
 }
