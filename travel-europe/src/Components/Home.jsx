@@ -2,7 +2,7 @@
 
 const Home = () => {
   return (
-    <div className="bg-[url('/main.jpg')] bg-cover bg-center bg-no-repeat min-h-[50rem] h-screen pt-24">
+    <div className="bg-[url('/main.png')] bg-cover bg-center bg-no-repeat min-h-[50rem] h-screen pt-24">
       <h1 className="text-white text-center lg:text-5xl text-3xl pt-24 pb-8">
         Economy Travelling Package
       </h1>
