@@ -57,12 +57,12 @@ const Home = () => {
 
     <section className="container mx-auto px-6 xl:pt-16 pb-24">
       <div className="flex flex-wrap items-center lg:justify-evenly justify-center py-16 gap-y-8 gap-12">
-      
-        <Reviews image="/" rating="4.3" review="1205"/>
-        <Reviews image="/" rating="4.6" review="3286"/>
-        <Reviews image="/" rating="5" review="1545"/>
-        <Reviews image="/" rating="4.4" review="4501"/>
-        <Reviews image="/" rating="4.9" review="1998"/>
+
+        <Reviews image="/travel.png" rating="4.3" review="1205"/>
+        <Reviews image="/travel.png" rating="4.6" review="3286"/>
+        <Reviews image="/travel.png" rating="5" review="1545"/>
+        <Reviews image="/travel.png" rating="4.4" review="4501"/>
+        <Reviews image="/travel.png" rating="4.9" review="1998"/>
 
       </div>
       <h2>
