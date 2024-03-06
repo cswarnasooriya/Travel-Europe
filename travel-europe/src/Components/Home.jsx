@@ -23,7 +23,8 @@ const Home = () => {
   const Card = ({image, packageType, duration, amount, type}) =>{
     return (
       <div>
-        <img src={image} alt="" className="w-full rounded-[10px] object-cover bg-[#ececec] shadow-md"/>
+        <img src={image} alt="" className="w-full rounded-[10px] object-cover bg-[#ececec] shadow-md" height={212}/>
+
         <p className="text-black text-base font-semibold pt-4 pb-2">{type}</p>
         <h6 className="tex2">{packageType}</h6>
         <span className="text-orange-300 text-2xl flex items-baseline font-semibold pt-2">LKR{amount}
@@ -65,12 +66,20 @@ const Home = () => {
         <Reviews image="/travel.png" rating="4.9" review="1998"/>
 
       </div>
-      <h2>
+      <h2 className="font-semibold lg:text-5xl text-3xl text-center">
         Europe and France Travelling with Us..!
       </h2>
-      <p>
+      <p className="text-center pt-8 font-medium">
         Don't miss out an these special offers from us!
       </p>
+
+      <div className="grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 pt-16">
+        <Card amount="15,000" duration="42.54" image="/travel.png" packageType="Paris Combo" type="Family" />
+        <Card amount="15,000" duration="42.54" image="/travel.png" packageType="Paris Combo" type="Family" />
+        <Card amount="15,000" duration="42.54" image="/travel.png" packageType="Paris Combo" type="Family" />
+        <Card amount="15,000" duration="42.54" image="/travel.png" packageType="Paris Combo" type="Family" />
+        
+      </div>
     </section>
   </>  
   )
