@@ -60,9 +60,9 @@ const Home = () => {
       <div className="flex flex-wrap items-center lg:justify-evenly justify-center py-16 gap-y-8 gap-12">
 
         <Reviews image="/travel.png" rating="4.3" review="1205"/>
-        <Reviews image="/travel.png" rating="4.6" review="3286"/>
-        <Reviews image="/travel.png" rating="5" review="1545"/>
-        <Reviews image="/travel.png" rating="4.4" review="4501"/>
+        <Reviews image="/travel2.png" rating="4.6" review="3286"/>
+        <Reviews image="/travel3.png" rating="5" review="1545"/>
+        <Reviews image="/travel4.png" rating="4.4" review="4501"/>
         <Reviews image="/travel.png" rating="4.9" review="1998"/>
 
       </div>
@@ -74,11 +74,24 @@ const Home = () => {
       </p>
 
       <div className="grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 pt-16">
-        <Card amount="15,000" duration="42.54" image="/travel.png" packageType="Paris Combo" type="Family" />
-        <Card amount="15,000" duration="42.54" image="/travel.png" packageType="Paris Combo" type="Family" />
-        <Card amount="15,000" duration="42.54" image="/travel.png" packageType="Paris Combo" type="Family" />
-        <Card amount="15,000" duration="42.54" image="/travel.png" packageType="Paris Combo" type="Family" />
+        <Card amount="15,000" duration="42.54" image="/loc1.png" packageType="Paris Combo" type="Family" />
+        <Card amount="12,000" duration="35.20" image="/loc4.png" packageType="Free Combo" type="Free" />
+        <Card amount="22,000" duration="40.30" image="/loc4.png" packageType="Dewls Combo" type="Holiday" />
+        <Card amount="18,000" duration="22.45" image="/loc4.png" packageType="Kumoose Combo" type="Friends" />
         
+      </div>
+    </section>
+
+    <section>
+      <img src="" alt="" />
+
+      <div>
+        <h2>What Do We Offer!</h2>
+        <p>
+
+        </p>
+
+        <button>Learn More</button>
       </div>
     </section>
   </>  
