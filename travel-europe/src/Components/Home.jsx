@@ -23,7 +23,7 @@ const Home = () => {
   const Card = ({image, packageType, duration, amount, type}) =>{
     return (
       <div>
-        <img src={image} alt="" className="w-full rounded-[10px] object-cover bg-[#ececec] shadow-md" height={212}/>
+        <img src={image} alt="" className="w-full rounded-[10px] object-cover bg-[#ececec] cursor-pointer shadow-md hoverBtn" height={212}/>
 
         <p className="text-black text-base font-semibold pt-4 pb-2">{type}</p>
         <h6 className="tex2">{packageType}</h6>
@@ -33,7 +33,7 @@ const Home = () => {
         </p>
         </span>
         <p className="pt-4 pb-6 font-medium">Package's Duration ({duration} Days)</p>
-        <button className="rounded-full px-8 py-3 border-none outline-none font-medium text-base bg-lightBlue hover:bg-red-50 hover:text-white hoverBtn">Details</button>
+        <button className="rounded-full px-8 py-3 border border-red-400 outline-none font-medium text-base bg-lightBlue hover:bg-red-100 hover:text-black hoverBtn">Details</button>
       </div>
     )
   }
@@ -80,6 +80,7 @@ const Home = () => {
         <Card amount="18,000" duration="22.45" image="/loc4.png" packageType="Kumoose Combo" type="Friends" />
         
       </div>
+
     </section>
 
     <section>
