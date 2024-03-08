@@ -74,17 +74,22 @@ const Home = () => {
       </p>
 
       <div className="grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 pt-16">
-        <Card amount="15,000" duration="42.54" image="/loc1.png" packageType="Paris Combo" type="Family" />
-        <Card amount="12,000" duration="35.20" image="/loc4.png" packageType="Free Combo" type="Free" />
-        <Card amount="22,000" duration="40.30" image="/loc4.png" packageType="Dewls Combo" type="Holiday" />
-        <Card amount="18,000" duration="22.45" image="/loc4.png" packageType="Kumoose Combo" type="Friends" />
+        <Card amount=" 15,000" duration="42" image="/loc1.png" packageType="Paris Combo" type="Family" />
+        <Card amount=" 12,000" duration="35" image="/loc4.png" packageType="Free Combo" type="Free" />
+        <Card amount=" 22,000" duration="48" image="/loc4.png" packageType="Dewls Combo" type="Holiday" />
+        <Card amount=" 18,000" duration="21" image="/loc4.png" packageType="Kumoose Combo" type="Friends" />
         
       </div>
 
     </section>
 
     <section>
-      <img src="" alt="" />
+      <img 
+        src="" 
+        alt=""
+        className="" 
+
+      />
 
       <div>
         <h2>What Do We Offer!</h2>
